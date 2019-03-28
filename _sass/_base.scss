@@ -364,9 +364,9 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
 }
 a {
-    color: $primary-color;
+    color: rgb(78, 51, 0);
     &:hover {
-        color: $primary-color-hover;
+        color: rgb(134, 87, 0);
         text-decoration: none;
     }
 }
@@ -520,6 +520,7 @@ a {
         }
         .timeline-content {
             padding: 40px 0 70px;
+            line-height: 20px;
         }
         .timeline-title {
             margin: 0;
