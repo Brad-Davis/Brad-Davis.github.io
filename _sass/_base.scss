@@ -364,11 +364,16 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
 }
 a {
-    color: rgb(78, 51, 0);
+    color: #3D4351;
     &:hover {
         color: rgb(134, 87, 0);
         text-decoration: none;
     }
+    &:active {
+        color: rgb(212, 212, 212);
+        text-decoration: none;
+    }
+
 }
 .example-header {
     background: #3D4351;
