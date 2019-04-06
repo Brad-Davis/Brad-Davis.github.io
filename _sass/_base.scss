@@ -18,14 +18,6 @@ hr.light {
     border-color: white;
 }
 
-a {
-    @include transition-all;
-    color: $theme-primary;
-    &:hover,
-    &:focus {
-        color: darken($theme-primary, 10%);
-    }
-}
 
 h1,
 h2,
@@ -364,13 +356,10 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
 }
 a {
+    @include transition-all;
     color: #3D4351;
     &:hover {
         color: rgb(134, 87, 0);
-        text-decoration: none;
-    }
-    &:visited {
-        color: rgb(61, 66, 77);
         text-decoration: none;
     }
 
