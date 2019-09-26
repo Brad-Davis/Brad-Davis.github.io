@@ -3,7 +3,7 @@ title: Brad Davis
 email: Brad.Davis@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https//www.bradcampdavis.com" # the base hostname & protocol for your site
+url: "https://www.bradcampdavis.com" # the base hostname & protocol for your site
 
 twitter_username: BradCampDavis
 github_username: Brad-Davis
